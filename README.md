@@ -9,12 +9,14 @@ Managing physical cheques can be challenging - they're easy to lose, difficult t
 ## ✨ Features
 
 ### Core Functionality
+
 - **Photo Capture**: Take high-quality photos of cheques using device camera
 - **OCR Processing**: Automatically extract key information from cheque images
 - **Data Storage**: Securely store cheque details locally on device
 - **Digital Organization**: View, search, and manage all tracked cheques
 
 ### Smart Data Extraction
+
 - Payee name recognition
 - Amount detection and parsing
 - Date identification
@@ -22,6 +24,7 @@ Managing physical cheques can be challenging - they're easy to lose, difficult t
 - Manual editing capabilities for OCR corrections
 
 ### Management Tools
+
 - Cheque status tracking (pending, deposited, cleared)
 - Search and filter functionality
 - Export capabilities
@@ -79,4 +82,4 @@ Simple, intuitive interface designed for quick cheque capture and management:
 
 **Note**: This is an ongoing project focused on learning React Native development patterns, mobile OCR implementation, and creating practical solutions for everyday problems.
 
-*Last updated: July 2025*
+_Last updated: July 2025_
