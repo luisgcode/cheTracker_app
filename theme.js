@@ -15,5 +15,3 @@ export const fontSizes = {
   bodyText: RFValue(24), // header
   smallText: RFValue(20), // display
 };
-export const spacing = {};
-export const borders = {};
