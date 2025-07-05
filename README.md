@@ -1,7 +1,7 @@
 # ChequeTracker 📱
 
-<div align="center">
-  <img src="assets/app-logo.png" alt="ChequeTracker Logo" width="200" height="200">
+<div align="left">
+  <img src="assets/app-logo.png" alt="ChequeTracker Logo" width="400" height="400">
 </div>
 
 A React Native mobile application for digitally tracking and managing cheques through intelligent image processing.
