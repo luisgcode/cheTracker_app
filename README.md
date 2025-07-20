@@ -1,89 +1,121 @@
-# ChequeTracker 📱
+# ChequeTracker AI 🤖📱
 
 <div align="left">
-  <img src="assets/app-logo.png" alt="ChequeTracker Logo" width="400" height="400">
+  <img src="assets/app-logo.png" alt="ChequeTracker AI Logo" width="400" height="400">
 </div>
 
-A React Native mobile application for digitally tracking and managing cheques through intelligent image processing.
+A smart mobile application that uses AI to digitally track and manage cheques through intelligent document processing and financial analytics.
 
-## 🎯 Problem Statement
+## 🎯 Real-World Problem
 
-Managing physical cheques can be challenging - they're easy to lose, difficult to organize, and hard to track. ChequeTracker solves this by allowing users to capture cheque photos and automatically extract key information for digital storage and management.
+Paper cheques are still widely used in many industries, and tracking them manually is error-prone and inefficient. Small businesses and individuals lose track of uncashed cheques, miss deposit deadlines, and struggle with financial organization. ChequeTracker AI solves this by combining modern AI with practical financial management.
 
-## ✨ Features
+## ✨ Smart Features
 
-### Core Functionality
+### 🤖 AI-Powered Document Processing
 
-- **Photo Capture**: Take high-quality photos of cheques using device camera
-- **OCR Processing**: Automatically extract key information from cheque images
-- **Data Storage**: Securely store cheque details locally on device
-- **Digital Organization**: View, search, and manage all tracked cheques
+- **Intelligent OCR**: Advanced text extraction using Hugging Face models
+- **Document Question Answering**: AI understands cheque structure and extracts specific fields
+- **Token Classification**: Smart field-level parsing (payee, amount, date, bank)
+- **Auto-correction**: AI validates and suggests corrections for extracted data
 
-### Smart Data Extraction
+### 📊 Financial Intelligence
 
-- Payee name recognition
-- Amount detection and parsing
-- Date identification
-- Bank information extraction
-- Manual editing capabilities for OCR corrections
+- **Smart Status Tracking**: Pending, deposited, cleared with automatic reminders
+- **Financial Analytics**: Track patterns, amounts, and cheque history
+- **Uncashed Cheque Alerts**: Never miss a deposit deadline again
+- **Monthly/Yearly Reports**: Visualize your financial activity
 
-### Management Tools
+### 🔄 Modern Data Management
 
-- Cheque status tracking (pending, deposited, cleared)
-- Search and filter functionality
-- Export capabilities
-- Photo gallery with zoom
+- **Local-First Storage**: SQLite for offline functionality
+- **Cloud Sync**: Optional Supabase integration for backup and multi-device sync
+- **Export Capabilities**: CSV, PDF reports for accounting
+- **Search & Filter**: Find cheques instantly with smart search
 
-## 🛠️ Technology Stack
+## 🛠️ Modern Tech Stack
 
-- **Framework**: React Native with Expo
-- **Language**: JavaScript (ES6+)
-- **Navigation**: React Navigation
-- **Database**: SQLite for local storage
-- **OCR**: Google Vision API / AWS Textract
-- **Image Processing**: Expo Camera & Image Manipulator
+### Frontend
+- **React Native + Expo** - Cross-platform mobile development
+- **React Navigation** - Smooth navigation experience
+- **Expo Camera & Image Manipulator** - Professional photo capture
 
-## 📱 Development Status
+### AI & Processing
+- **Hugging Face Transformers** - Document Question Answering
+- **Google Vision API** - Primary OCR with AI fallback
+- **Token Classification Models** - Smart field extraction
 
-🚧 **Currently in Development**
+### Backend & Data
+- **SQLite** - Local database for offline-first approach
+- **Supabase** - Cloud sync and backup (optional)
+- **AsyncStorage** - App settings and preferences
 
-This project is actively being developed with a phased approach:
+### Development & Deployment
+- **Expo Development Build** - Custom native modules
+- **GitHub Actions** - CI/CD pipeline
+- **Expo Application Services** - Build and deployment
 
-- ✅ Project planning and architecture design
-- 🔄 Development environment setup
-- ⏳ Core UI development
-- ⏳ OCR integration
-- ⏳ Data storage implementation
-- ⏳ Advanced features
-- ⏳ Testing and optimization
+## 📱 Development Phases
 
-## 🎨 User Experience
+🚧 **Smart Development Approach**
 
-Simple, intuitive interface designed for quick cheque capture and management:
+**Phase 1: Foundation** ✅ Partial
+- ✅ Project architecture with AI considerations
+- 🔄 React Native + Expo setup
+- ⏳ Navigation and UI foundation
 
-1. **Capture**: Point camera at cheque and take photo
-2. **Process**: App automatically extracts key information
-3. **Review**: Verify and edit extracted data if needed
-4. **Store**: Save cheque information for future reference
-5. **Manage**: Track status and access cheque history
+**Phase 2: Core AI Integration**
+- ⏳ Hugging Face model integration (free tier)
+- ⏳ Document Question Answering implementation
+- ⏳ Smart camera and image processing
 
-## 📊 Success Metrics
+**Phase 3: Financial Intelligence**
+- ⏳ SQLite database with smart schema
+- ⏳ Analytics and reporting features
+- ⏳ Status tracking and notifications
 
-- OCR accuracy rate > 80%
-- Seamless photo capture experience
-- Reliable data persistence
-- Intuitive user interface
-- Comprehensive cheque management
+**Phase 4: Cloud & Polish**
+- ⏳ Optional Supabase cloud sync
+- ⏳ Export functionality and UX polish
+- ⏳ Performance optimization
+
+## 🎨 Smart User Flow
+
+AI-enhanced experience for maximum efficiency:
+
+1. **📸 Smart Capture**: AI-guided photo capture with quality validation
+2. **🤖 AI Processing**: Document QA extracts structured data automatically
+3. **✏️ Smart Review**: AI suggests corrections and validates data
+4. **💾 Intelligent Storage**: Auto-categorization and smart organization
+5. **📊 Analytics**: Track patterns and get insights about your finances
+
+## 📊 Portfolio Value
+
+**Resume Impact:**
+> "Built a mobile app using Hugging Face AI models for document processing, combining OCR, NLP, and financial analytics to solve real-world cheque management problems"
+
+**Key Technical Highlights:**
+- 🤖 **AI Integration**: Hugging Face Document QA and Token Classification
+- 📱 **Mobile Development**: React Native with modern patterns
+- 🔄 **Full-Stack**: Local + Cloud data management
+- 📊 **Data Analytics**: Financial insights and reporting
+- 🎯 **Real-World Problem**: Practical financial management solution
 
 ## 🔒 Privacy & Security
 
-- All data stored locally on device
-- No personal information transmitted without user consent
-- Secure handling of financial document images
-- Optional data backup and export features
+**Local-First Approach:**
+- Primary data storage on device (SQLite)
+- Optional cloud sync with user control
+- No sensitive data transmitted without explicit consent
+- Secure handling of financial documents
+
+**Cost-Effective Development:**
+- Hugging Face free tier for AI models
+- Supabase free tier for cloud features
+- Expo free tier for development and deployment
 
 ---
 
-**Note**: This is an ongoing project focused on learning React Native development patterns, mobile OCR implementation, and creating practical solutions for everyday problems.
+**🎯 Learning Goals**: Modern React Native development, AI model integration, practical financial app architecture, and portfolio-worthy project execution.
 
 _Last updated: July 2025_
