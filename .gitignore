@@ -36,5 +36,5 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
-# project planning (private)
-projectplan.md
+# Claude setup and learning files (private)
+.claude/
